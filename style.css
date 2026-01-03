@@ -224,3 +224,14 @@
 }
 }
 
+@media (max-width:771px) {
+    .footer-content{
+    display: flex;
+    flex-wrap:wrap;
+    .footer-content-child{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+}
+
