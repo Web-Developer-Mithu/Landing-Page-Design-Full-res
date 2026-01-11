@@ -124,114 +124,119 @@
     border-radius: 10px;
 }
 
-.container h2{
+.container h2 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
 }
 
 
-.footer{
+.footer {
     background-color: black;
     color: rgb(247, 245, 241);
     padding: 60px 0px;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-logo{
+.footer-logo {
     width: 150px;
     height: 60px;
 }
 
-.social-icon a{
+.social-icon a {
     color: azure;
     font-size: 1.5rem;
 }
 
-.social-icon a:hover{
+.social-icon a:hover {
     color: rgb(170, 240, 8);
 }
 
-@media (max-width:1030px){
-    .hero-content h1{
+@media (max-width:1030px) {
+    .hero-content h1 {
         font-size: 3rem;
     }
 }
 
-@media (max-width:847px){
-    .hero-content p{
+@media (max-width:847px) {
+    .hero-content p {
         font-size: 20px;
     }
 }
 
-@media (max-width:778px){
-    .hero-content h1{
+@media (max-width:778px) {
+    .hero-content h1 {
         font-size: 2.5rem;
     }
 }
 
-@media (max-width:705px){
-    .hero-content p{
+@media (max-width:705px) {
+    .hero-content p {
         font-size: 16px;
     }
 }
 
-@media (max-width:663px){
-    .hero-content h1{
+@media (max-width:663px) {
+    .hero-content h1 {
         font-size: 2rem;
     }
 }
 
-@media (max-width:565px){
-    .hero-content p{
+@media (max-width:565px) {
+    .hero-content p {
         font-size: 12px;
     }
 }
 
-@media (max-width:515px){
-    .hero-content h1{
-        font-size:30px;
+@media (max-width:515px) {
+    .hero-content h1 {
+        font-size: 30px;
     }
+
     .btn-custom {
-    padding: 10px 20px;
-  
-}
+        padding: 10px 20px;
+
+    }
 }
 
 
-@media (max-width:483px){
-    .hero-content h1{
-        font-size:25px;
-     
-}
+@media (max-width:483px) {
+    .hero-content h1 {
+        font-size: 25px;
+
+    }
 }
 
-@media (max-width:423px){
-    .hero-content p{
+@media (max-width:423px) {
+    .hero-content p {
         font-size: 9px;
     }
 }
 
-@media (max-width:403px){
-    .hero-content h1{
-        font-size:18px;
+@media (max-width:403px) {
+    .hero-content h1 {
+        font-size: 18px;
     }
+
     .btn-custom {
-    padding: 8px 16px;
-  
-}
+        padding: 8px 16px;
+
+    }
 }
 
 @media (max-width:771px) {
-    .footer-content{
-    display: flex;
-    flex-wrap:wrap;
-    .footer-content-child{
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer-content-child {
         width: 100%;
         margin-bottom: 20px;
+
     }
 }
-}
-
